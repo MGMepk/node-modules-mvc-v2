@@ -6,7 +6,6 @@ const getAllMovies = (data_movie) => {
 
 const getMovieById = (data_movie) => {
   data_movie.res.push(moviesModel.getMovieById(data_movie.req.id));
-  console.log(typeof data_movie.res);
 }
 
 const removeMovie = (data_movie) => {
